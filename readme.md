@@ -1,3 +1,3 @@
-# hkust-comp-3111h
+# hkust-comp-3111h-labs
 
 Mysterious...
