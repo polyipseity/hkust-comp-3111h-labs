@@ -1,5 +1,7 @@
 package Lab2b;
 
+import java.util.Arrays;
+
 public class mainApp2b {
 	public static void main(String[] arg) {
 		final String[] array = {"Basic Java", "Advanced Java", "Guru Java"};
@@ -9,6 +11,6 @@ public class mainApp2b {
 		String[] anotherArray = b.getChapters();
 
 		System.out.println("There are " + anotherArray.length + " chapters.");
-		System.out.println(anotherArray);
+		System.out.println(Arrays.toString(anotherArray));  // System.out.println(anotherArray);
 	}
 }
