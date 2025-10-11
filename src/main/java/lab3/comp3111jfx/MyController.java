@@ -7,15 +7,15 @@ import javafx.scene.control.Label;
 
 public class MyController {
 
-    @FXML
-    private Button button1;
+	@FXML
+	private Button button1;
 
-    @FXML
-    private Label label1;
+	@FXML
+	private Label label1;
 
-    @FXML
-    void buttonPressed(ActionEvent event) {
-        label1.setText("You have clicked the button! Congratulations!");
-    }
+	@FXML
+	void buttonPressed(ActionEvent event) {
+		label1.setText("You have clicked the button! Congratulations!");
+	}
 
 }
