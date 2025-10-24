@@ -37,6 +37,10 @@ public class main {
 			animals[ii] = new Animal();
 		}
 		```
+
+		Then, after running the code, each element of the array is nonnull, so
+		all code after the code will not encounter `NullPointerException`, as
+		`animals[iii]` is always nonnull.
 		*/
 		for (int ii = 0; ii < animals.length; ++ii) {
 			animals[ii] = new Animal();
